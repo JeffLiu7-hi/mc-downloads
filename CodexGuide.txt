@@ -1,0 +1,12 @@
+I am making a website that provides Minecraft downloads. No flask, no python, ONLY index.html (necessary files like css and js files are OK). Make each button big. Make a English and Chinese translator, too (default language is English)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Button Mappings:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Button Text: Official Launcher; Redirect Link: "https://www.minecraft.net/download"
+Button Text: Hello Minecraft! Launcher; Redirect Link: "https://hmcl.huangyuhui.net/download/"
+Button Text: Prism Launcher; Redirect Link: "https://prismlauncher.org/download/"
+Button Text: ATLauncher; Redirect Link: "https://atlauncher.com/downloads"
+Button Text: MultiMC; Redirect Link: "https://multimc.org/#Download"
+Button Text: Modrinth Launcher; Redirect Link: "https://modrinth.com/app"
+Button Text: Plain Craft Launcher2 (Only Avalible For Windows); Redirect Link: "https://pcl2.aoe.top/#download"
+

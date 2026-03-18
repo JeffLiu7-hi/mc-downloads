@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minecraft Download Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow" data-key="eyebrow">Minecraft Downloads</p>
+        <h1 data-key="title">All Your Favorite Launchers, One Click Away</h1>
+        <p class="tagline" data-key="tagline">
+          Choose an official or community launcher and start exploring blocky worlds
+          in minutes.
+        </p>
+      </header>
+
+      <section class="translator" aria-label="Language selector">
+        <span class="translator__label" data-key="languageLabel">Language</span>
+        <div class="translator__controls" role="group">
+          <button class="translator__btn active" data-lang="en">English</button>
+          <button class="translator__btn" data-lang="zh">中文</button>
+        </div>
+      </section>
+
+      <section class="downloads" aria-label="Download options">
+        <a
+          class="download-card"
+          href="https://www.minecraft.net/download"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="official">Official Launcher</span>
+          <span class="download-card__note" data-key="officialNote">Best for Java &amp; Bedrock</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://hmcl.huangyuhui.net/download/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="hmcl">Hello Minecraft! Launcher</span>
+          <span class="download-card__note" data-key="hmclNote">Lightweight &amp; flexible</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://prismlauncher.org/download/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="prism">Prism Launcher</span>
+          <span class="download-card__note" data-key="prismNote">Community favorite fork</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://atlauncher.com/downloads"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="atlauncher">ATLauncher</span>
+          <span class="download-card__note" data-key="atlauncherNote">Great for modpacks</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://multimc.org/#Download"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="multimc">MultiMC</span>
+          <span class="download-card__note" data-key="multimcNote">Profiles made simple</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://modrinth.com/app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="modrinth">Modrinth Launcher</span>
+          <span class="download-card__note" data-key="modrinthNote">Browse mods instantly</span>
+        </a>
+
+        <a
+          class="download-card"
+          href="https://pcl2.aoe.top/#download"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="download-card__title" data-key="pcl2">Plain Craft Launcher2</span>
+          <span class="download-card__note" data-key="pcl2Note">Windows only</span>
+        </a>
+      </section>
+
+      <footer class="footer">
+        <p data-key="disclaimer">
+          All links lead to their respective official project pages.
+        </p>
+      </footer>
+    </main>
+    <script src="translator.js"></script>
+  </body>
+</html>
